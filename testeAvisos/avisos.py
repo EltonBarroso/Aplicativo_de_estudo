@@ -2,11 +2,15 @@ def atencao():
 	#teste
 	print("\nQuer acessar esta merda antes de estudar FDP\n");
 
-def verificarSeAFrasesContemA():
-	print("Digite uma frase:");
-	nome = input();
-	if 'a' in nome:
-		print("\nYeah, the caracter 'A' is into the pharse");
+class TesteClasse:
+	"""docstring for TesteClasse"""
+	def verificarSeAFrasesContemA(self, frase):
+		#print("Digite uma frase:");
+		if 'a' in frase:
+			print("\nYeah, the caracter 'A' is into the pharse");
+		
+		else:
+			print("\nNo, the caracter 'A' isn't into the pharse");
 
-	else:
-		print("\nNo, the caracter 'A' isn't into the pharse");
+		
+		
