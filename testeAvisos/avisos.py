@@ -4,13 +4,18 @@ def atencao():
 
 class TesteClasse:
 	"""docstring for TesteClasse"""
-	def verificarSeAFrasesContemA(self, frase):
+	def __init__(self, frase:"Posso pressentir o perigo e o caos"):
+		self.frase = frase;
+		
+	def verificarSeAFrasesContemA(self):
 		#print("Digite uma frase:");
-		if 'a' in frase:
+		if 'a' in self.frase:
 			print("\nYeah, the caracter 'A' is into the pharse");
+			return "Yeah";
 		
 		else:
 			print("\nNo, the caracter 'A' isn't into the pharse");
+			return "No";
 
 		
 		
