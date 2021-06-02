@@ -17,5 +17,7 @@ class TesteClasse:
 			print("\nNo, the caracter 'A' isn't into the pharse");
 			return "No";
 
-		
+#Herança:
+class testeHeranca(TesteClasse):
+	pass
 		
