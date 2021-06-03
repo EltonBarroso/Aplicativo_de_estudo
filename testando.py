@@ -26,5 +26,10 @@ print("i really love Acarajá!\n");
 #print(testeClasse);
 #print(verificador);
 
-tela = telaTeste.TelaPython();
-print(tela.iniciar());
+######################Testando laço for##################
+for item in range(3):
+	tela = telaTeste.TelaPython();
+	tela.printOutData()
+#########################################################
+
+#print(tela.iniciar());
