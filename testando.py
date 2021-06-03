@@ -27,3 +27,4 @@ print("i really love Acarajá!\n");
 #print(verificador);
 
 tela = telaTeste.TelaPython();
+print(tela.iniciar());
