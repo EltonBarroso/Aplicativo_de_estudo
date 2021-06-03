@@ -3,6 +3,7 @@ import PySimpleGUI as sg;
 
 class TelaPython:
 	def __init__(self):
+		sg.change_look_and_feel('BlueMono');
 		# Layout
 		layout = [
 			[sg.Text('Name:',size=(5,0)),sg.Input(size=(40,0), key='name')],
@@ -13,6 +14,7 @@ class TelaPython:
 			[sg.Radio('oneR', 'radio', size=(13, 13)), sg.Radio('twoR', 'radio', size=(13, 13)), sg.Radio('threeR', 'radio')],
 			[sg.Button("Send informations", border_width=3, button_color=('white', 'green'))],
 			#[sg.Quit(button_color=('black', 'orange'))],
+			[sg.Output(size=(45,10))]
 		]
 		# Janela
 		self.janela = sg.Window("Dados do Usuário").layout(layout);
